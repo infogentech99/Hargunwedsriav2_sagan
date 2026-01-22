@@ -40,8 +40,8 @@ export default function CoupleMessage() {
 
         <div className="bg-[url('/assets/backmid.png')] bg-cover bg-no-repeat bg-[#1BB1BB]">
             <div className="lg:h-460 md:h-290 h-305">
-                <h1 className="lg:text-4xl text-3xl text-center text-white lg:pt-42 pt-12">A message from the couple</h1>
-                <h2 className="lg:text-2xl text-[16px] text-center text-white lg:pt-6 lg:px-60 px-6 lg:mt-28 mt-12">We are both so delighted that you are able to join us in celebrating what we hope will be one of the happiest days of our lives. The affection shown to us by so many people since our roka has been incredibly moving, and has touched us both deeply.
+                <h1 className="lg:text-4xl text-3xl text-center text-white lg:pt-42 pt-12 font-cormorant">A message from the couple</h1>
+                <h2 className="lg:text-2xl text-[16px] text-center text-white lg:pt-6 lg:px-60 px-6 lg:mt-28 mt-12 font-cormorant">We are both so delighted that you are able to join us in celebrating what we hope will be one of the happiest days of our lives. The affection shown to us by so many people since our roka has been incredibly moving, and has touched us both deeply.
                     We would like to take this opportunity to thank everyone most sincerely for their kindness.
                     We are looking forward to see you at the wedding.</h2>
                 <div className="mt-32 flex justify-center items-center">
@@ -72,8 +72,8 @@ export default function CoupleMessage() {
 
                 <div className="flex flex-col-1 justify-center items-center mt-16">
                     <div className="bg-[url('/assets/seap.png')] bg-cover bg-no-repeat lg:h-150 lg:w-150 h-95 w-95 md:h-120 md:w-120">
-                        <h1 className="lg:text-6xl text-3xl md:text-5xl text-center text-white lg:pt-26 md:pt-22 pt-16">Looking <br /> forward to <br />see you</h1>
-                    <p className="lg:text-[22px] text-[14px] text-[#DEE6FF] mt-6 text-center">
+                        <h1 className="lg:text-6xl text-3xl md:text-5xl text-center text-white lg:pt-26 md:pt-22 pt-16 font-cormorant">Looking <br /> forward to <br />see you</h1>
+                    <p className="lg:text-[22px] text-[14px] text-[#DEE6FF] mt-6 text-center font-cormorant">
                         Click the link to RSVP
                     </p>
                     </div>

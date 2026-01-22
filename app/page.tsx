@@ -206,8 +206,8 @@ export default function Home() {
 
       <div className="bg-[url('/assets/Group_2147224830.png')] bg-cover bg-no-repeat">
         <div className="lg:h-325 md:h-180 h-90">
-          <h1 className="lg:text-3xl text-xl text-center text-[#E1EF1E] lg:pt-54 pt-12">MEET THE</h1>
-          <h2 className="lg:text-6xl text-2xl text-center text-[#EAD670] lg:pt-6">Bride <br /> & <br />Groom</h2>
+          <h1 className="lg:text-3xl text-xl text-center text-[#E1EF1E] lg:pt-54 pt-12 font-cormorant">MEET THE</h1>
+          <h2 className="lg:text-6xl text-2xl text-center text-[#EAD670] lg:pt-6 font-cormorant">Bride <br /> & <br />Groom</h2>
         </div>
       </div>
 
