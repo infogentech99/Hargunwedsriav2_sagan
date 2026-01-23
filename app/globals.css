@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -59,6 +60,10 @@ body {
   font-family: 'Cormorant Upright', serif;
 }
 
+
+.font-cormorant-infant {
+  font-family: 'Cormorant Infant', serif;
+}
 
 .curved-edge {
   --c: 120px; 

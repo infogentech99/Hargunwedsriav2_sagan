@@ -166,14 +166,14 @@ export default function Home() {
               className="w-40 sm:w-52 h-auto"
             />
 
-            <h2 className="text-white lg:text-3xl md:text-2xl text-[18px] font-cormorant-upright">
+            <h2 className="text-white lg:text-[30px] md:text-2xl text-[18px] font-cormorant-upright">
               With the heavenly blessings of <br />
               Our late grandparents,<br/> Sardarni Parkash Kaur and Sardar Avtar Singh.
             </h2>
 
             <hr className="lg:w-24 w-16 border-white my-4" />
 
-            <h2 className="text-white font-cormorant-upright lg:text-3xl md:text-2xl text-[18px]">
+            <h2 className="text-white font-cormorant-upright lg:text-[30px] md:text-2xl text-[18px]">
               The Kataria Family
             </h2>
           </div>
@@ -181,35 +181,36 @@ export default function Home() {
 
           <div className="mt-8 text-center">
             <h2 className="text-white font-cormorant 
-            text-5xl sm:text-7xl lg:text-[100px] leading-tight">
+            text-5xl sm:text-7xl lg:text-[100px] leading-tight tracking-wide">
               INVITES
             </h2>
 
-            <p className="text-white font-cormorant-upright lg:text-3xl md:text-2xl text-[18px] mt-6">
+            <p className="text-white font-cormorant-upright lg:text-[30px] md:text-2xl text-[18px] mt-6">
               You to join us in the wedding celebrations of
             </p>
 
-            <h2 className="text-white font-cormorant text-center mt-10
+            <h2 className="text-white font-cormorant-upright text-center mt-10
             text-5xl sm:text-7xl lg:text-[100px] leading-tight">
               HARGUN
             </h2>
 
-            <p className="text-white font-cormorant-upright lg:text-3xl md:text-2xl text-[18px] mt-6">
+            <p className="text-white font-cormorant-upright lg:text-[30px] md:text-2xl text-[18px] mt-6">
               Son of <br /> Amarjeet Singh and Gurmeet Kaur
             </p>
 
-            <h2 className="text-white font-cormorant text-center mt-10
+            <h2 className="text-white font-cormorant-upright text-center mt-10
             text-5xl sm:text-7xl lg:text-[100px] leading-tight">
-              & <br />
-              Ria
+            <span className="text-white font-cormorant-upright text-center mt-10
+            text-5xl sm:text-7xl lg:text-[150px] leading-tight">&</span>   <br />
+              RIA
             </h2>
 
 
-            <p className="text-white font-cormorant-upright lg:text-3xl md:text-2xl mt-6 text-[18px]">
+            <p className="text-white font-cormorant-upright lg:text-[30px] md:text-2xl mt-6 text-[18px]">
               D/O <br /> (Insert Names)
 
             </p>
-            <p className="text-white font-cormorant lg:text-3xl md:text-2xl text-[20px] mt-8">
+            <p className="text-white font-cormorant-upright lg:text-3xl md:text-2xl text-[20px] mt-8">
               On the following events
             </p>
           </div>
@@ -224,11 +225,11 @@ export default function Home() {
                     className="lg:w-80 w-95 sm:w-76 h-auto"
                   />
 
-                  <h2 className="text-white font-cormorant text-2xl sm:text-3xl mt-4">
+                  <h2 className="text-white font-cormorant lg:text-[45px]md:text-2xl sm:text-3xl mt-4">
                     {event.title}
                   </h2>
 
-                  <p className="text-white font-cormorant text-sm sm:text-base leading-5 mt-2">
+                  <p className="text-white font-cormorant text-[14px] sm:text-base leading-5 mt-2">
                     {event.date} <br />
                     {event.venue} <br />
                     {event.time}
@@ -249,7 +250,7 @@ export default function Home() {
       </div>
 
 
-      <div className="hidden md:block bg-[url('/assets/Group_2147224830.png')] bg-cover bg-no-repeat">
+      <div className="hidden md:block bg-[url('/assets/meetthebroom.png')] bg-cover bg-no-repeat">
         <div className="lg:h-325 md:h-180">
           <h1 className="lg:text-3xl text-xl text-center text-[#E1EF1E] lg:pt-64 pt-12 font-cormorant">
             MEET THE
