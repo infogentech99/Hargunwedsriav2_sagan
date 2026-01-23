@@ -105,7 +105,7 @@ export default function Home() {
       {/* hero section */}
      <div
   className="
-    bg-[url('/assets/mob-lavaan.png')]
+    bg-[url('/assets/mob_lavaan_new.png')]
     md:bg-[url('/assets/lavaan.png')]
     bg-cover
     bg-no-repeat
@@ -265,7 +265,7 @@ export default function Home() {
       {/* mobile visible section */}
 
       <div className="md:hidden bg-[url('/assets/group_mobile.png')] bg-cover bg-no-repeat">
-        <div className="h-230">
+        <div className="h-225">
           <h1 className="text-xl text-center text-[#E1EF1E] lg:pt-48 pt-28 font-cormorant">
             MEET THE
           </h1>
