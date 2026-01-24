@@ -189,24 +189,24 @@ export default function Home() {
               you to join us in the wedding celebrations of
             </p>
 
-            <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-10
+            <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-14
             md:text-5xl text-[60px] lg:text-[100px] leading-tight font-bold">
               HARGUN
             </h2>
 
-            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[18px] mt-5">
+            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[18px] mt-2">
               S/O <br /> Amarjeet Singh and Gurmeet Kaur
             </p>
 
-            <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-10
+            <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-4
             text-[60px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
-            <span className="text-[#E6D2FF] font-cormorant-upright text-center lg:mt-10 mt-6
+            <span className="text-[#E6D2FF] font-cormorant-upright text-center lg:mt-10 mt-4 
             md:text-5xl text-[80px] lg:text-[150px] leading-tight">&</span>   <br />
-              RIA
+             RIA
             </h2>
 
 
-            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl mt-6 text-[18px]">
+            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[18px]">
               D/O <br /> (Insert Names)
 
             </p>
