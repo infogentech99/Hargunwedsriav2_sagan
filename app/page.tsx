@@ -105,7 +105,7 @@ export default function Home() {
       {/* hero section */}
      <div
   className="
-    bg-[url('/assets/mob_back_lavaan.png')]
+    bg-[url('/assets/mobile_back_lavaan.png')]
     md:bg-[url('/assets/lavaan.png')]
     bg-cover
     bg-no-repeat
@@ -146,14 +146,14 @@ export default function Home() {
         <div className=" pt-24 pb-20 relative z-10">
 
           <h2 className="text-white font-cormorant text-center leading-tight
-            text-[40px] sm:text-5xl lg:text-[80px] md:pb-350 pb-0">
+            text-[50px] sm:text-5xl lg:text-[80px] md:pb-350 pb-0">
             HARGUN <br />
             <span className="text-xl sm:text-3xl tracking-[10px]">WEDS</span>
             <br />
             RIA
           </h2>
 
-          <div className="flex flex-col items-center text-center gap-6 mt-0  pt-150">
+          <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-150 pt-250">
             <h2 className="text-[#E6D2FF] text-sm sm:text-base text-center">
               ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ <br />
               ਪੁਰਖੁ ਨਿਰਭਉ <br />
