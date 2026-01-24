@@ -10,13 +10,13 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
   const lampValues = useMemo(() => {
     const duration = 60 + Math.random() * 40; // 60–100s (very slow flow)
     const delay = Math.random() * 15;
-    
+
     // depth feel - dramatic size variety
-    const scale = Math.random() < 0.5 
+    const scale = Math.random() < 0.5
       ? 0.3 + Math.random() * 0.4  // 0.3–0.7 (small lamps)
       : 1.2 + Math.random() * 0.8; // 1.2–2.0 (large lamps)
     const blur = scale < 0.7 ? "blur(1.5px)" : "blur(0px)";
-    
+
     return { duration, delay, scale, blur };
   }, []); // Empty dependency array means these values are calculated only once
 
@@ -103,9 +103,9 @@ export default function Home() {
 
       <audio ref={audioRef} src="/assets/background_song.mp3" loop />
       {/* hero section */}
-     <div
-  className="
-    bg-[url('/assets/mobile_back_lavaan.png')]
+      <div
+        className="
+    bg-[url('/assets/mobile_back_lavaan2.png')]
     md:bg-[url('/assets/lavaan.png')]
     bg-cover
     bg-no-repeat
@@ -116,7 +116,7 @@ export default function Home() {
     overflow-hidden
     relative
   "
->
+      >
         {/* Decorative Lamps - Natural Flow Pattern */}
         {/* Left-to-Right Lamps - Less crowded */}
         <FloatingLamp className="absolute top-10 left-8 w-40 h-40 transform rotate-12 opacity-90" />
@@ -129,7 +129,7 @@ export default function Home() {
         <FloatingLamp className="absolute top-150 left-140 w-30 h-30 transform rotate-22 opacity-85" />
         <FloatingLamp className="absolute top-170 left-160 w-32 h-32 transform rotate-18 opacity-80" />
         <FloatingLamp className="absolute top-190 left-180 w-40 h-40 transform rotate-28 opacity-85" />
-        
+
         {/* Right-to-Left Lamps - Less crowded */}
         <FloatingLamp className="absolute top-20 right-12 w-32 h-32 transform -rotate-6 opacity-85" reverse={true} />
         <FloatingLamp className="absolute top-40 right-32 w-28 h-28 transform -rotate-12 opacity-75" reverse={true} />
@@ -146,11 +146,15 @@ export default function Home() {
         <div className=" pt-24 pb-20 relative z-10">
 
           <h2 className="text-[#DEE6FF] font-cormorant text-center leading-tight
-            text-[50px] sm:text-5xl lg:text-[80px] md:pb-350 pb-0">
-            HARGUN <br />
+  text-[50px] sm:text-5xl lg:text-[80px] md:pb-350 pb-0
+  flex flex-col items-center gap-y-6">
+
+            <span>HARGUN</span>
+
             <span className="text-xl sm:text-3xl tracking-[10px]">WEDS</span>
-            <br />
-            RIA
+
+            <span>RIA</span>
+
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-150 pt-250">
@@ -168,7 +172,7 @@ export default function Home() {
 
             <h2 className="text-[#E6D2FF] lg:text-[30px] md:text-2xl text-[18px] font-cormorant-upright">
               With the heavenly blessings of <br />
-              Our late grandparents,<br/> Sdn. Parkash Kaur and Sd. Avtar Singh.
+              Our late grandparents,<br /> Sdn. Parkash Kaur and Sd. Avtar Singh.
             </h2>
 
             <hr className="lg:w-24 w-16 border-[#E6D2FF] my-4" />
@@ -200,9 +204,9 @@ export default function Home() {
 
             <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-4
             text-[60px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
-            <span className="text-[#E6D2FF] font-cormorant-upright text-center lg:mt-10 mt-4 
+              <span className="text-[#E6D2FF] font-cormorant-upright text-center lg:mt-10 mt-4 
             md:text-5xl text-[80px] lg:text-[150px] leading-tight">&</span>   <br />
-             RIA
+              RIA
             </h2>
 
 
@@ -270,8 +274,8 @@ export default function Home() {
             MEET THE
           </h1>
           <h2 className="text-[100px] text-center text-[#00EAFF] font-cormorant-upright mt-6 leading-12">
-             <span className="text-[#ADBAFF] font-cormorant-upright">
-            Bride </span><br /> & <br /><span className="text-[#3FA9FF] font-cormorant-upright "> Groom </span>
+            <span className="text-[#ADBAFF] font-cormorant-upright">
+              Bride </span><br /> & <br /><span className="text-[#3FA9FF] font-cormorant-upright "> Groom </span>
           </h2>
         </div>
       </div>
