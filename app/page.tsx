@@ -105,7 +105,7 @@ export default function Home() {
       {/* hero section */}
       <div
         className="
-    bg-[url('/assets/mobile_back_lavaan2.png')]
+    bg-[url('/assets/mobile_back_lavaan3.png')]
     md:bg-[url('/assets/lavaan.png')]
     bg-cover
     bg-no-repeat
