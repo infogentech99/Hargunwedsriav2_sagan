@@ -107,8 +107,8 @@ export default function Home() {
       {/* hero section */}
       <div
         className="
-    bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1769753878/laavan_mobile_bg_ly1qww.png')]
-    md:bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1769753693/laavan_bg_a2iz6l.png')]
+    bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1769754820/laavan_mobile_bg_dhiww2.png')]
+    md:bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1769754981/laavan_bg_hujjxn.png')]
     bg-cover
     bg-no-repeat
     bg-top
