@@ -53,15 +53,6 @@ export default function Home() {
     },
 
     {
-      title: "Wedding/Anand Karaj",
-      image: "/assets/anand.png",
-      date: "Monday, March 9th 2026",
-      venue: "THE NIKUNJ",
-      venue_address: "Emperor Hall NH 8, 22nd Milestone, near IGI Airport, New Delhi, Delhi - 110038",
-      time: "8pm Onwards",
-      link: "https://maps.app.goo.gl/1A2TWMfV3A4ECZ2JA",
-    },
-    {
       title: "Reception",
       image: "/assets/reception.png",
       date: "Wednesday, March 11th 2026",
@@ -262,7 +253,7 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center mt-20">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-32 gap-12 sm:gap-16">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 lg:gap-32 gap-12 sm:gap-16">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
                   <img
