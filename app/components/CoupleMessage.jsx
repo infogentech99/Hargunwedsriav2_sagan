@@ -20,7 +20,7 @@ export default function CoupleMessage() {
         },
 
         {
-            img: '/assets/testh2.png',
+            img: '/assets/testh5.webp',
         },
 
          {
@@ -34,9 +34,9 @@ export default function CoupleMessage() {
     return (
 
         <div className="bg-[url('/assets/backmid.png')] bg-cover bg-no-repeat">
-            <div className="lg:h-592 md:h-520 h-510">
-                <h1 className="lg:text-[40px] md:text-3xl text-[50px] text-center text-[#DEE6FF] lg:pt-32 pt-12 font-cormorant-upright">A message from the couple</h1>
-                <h2 className="lg:text-[30px] text-[18px]  text-center text-[#DEE6FF] lg:px-60 px-6 lg:mt-28 mt-12 font-cormorant-upright lg:leading-8 md:leading-8 leading-6">
+            <div className="lg:h-592 md:h-520 h-520">
+                <h1 className="lg:text-[50px] md:text-3xl text-[52px] text-center text-[#DEE6FF] lg:pt-32 pt-12 font-cormorant-upright">A message from the couple</h1>
+                <h2 className="lg:text-[30px] text-[22px]  text-center text-[#DEE6FF] lg:px-60 px-6 lg:mt-28 mt-12 font-cormorant-upright lg:leading-8 md:leading-8 leading-6">
                     From different traditions to one beautiful journey, join us as we celebrate love, laughter, and forever.
                     This moment wouldn’t be the same without the people we love most. Thank you for your love, blessings, and for making our journey even more special, we’re so excited to celebrate together!</h2>
                 <div className="mt-32 flex justify-center items-center">
@@ -76,15 +76,24 @@ export default function CoupleMessage() {
                         <h1 className="lg:text-6xl md:text-5xl text-[40px] leading-10 font-bold lg:leading-12 lg:font-semibold text-center text-[#3c2267] lg:pt-26 md:pt-22 pt-16 font-cormorant-upright">
                             Looking <br /> forward to <br />seeing you</h1>
                         <p className="lg:text-[22px] text-[14px] text-[#3c2267] md:mt-6 mt-4 text-center font-cormorant">
-                            Click the link to RSVP
+                            Click the contact numbers to RSVP
                         </p>
-                        <p className="lg:text-[22px] text-[14px] text-[#3c2267] md:mt-6 mt-2 text-center font-cormorant font-semibold">
-                            Amarjeet Singh:<br /> <a
+                        <p className="lg:text-[22px] text-[14px] text-white md:mt-6 mt-2 text-center font-cormorant font-semibold">
+                            <a
+                                href="https://wa.me/919811075858"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >Amarjeet Singh:</a><br /> <a
                                 href="https://wa.me/919811075858"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >9811075858</a> <br />
-                            Kawaljeet Singh:<br /><a
+                            <a
+                                href="https://wa.me/9811449797"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            > Kawaljeet Singh:</a>
+                            <br /><a
                                 href="https://wa.me/9811449797"
                                 target="_blank"
                                 rel="noopener noreferrer"
